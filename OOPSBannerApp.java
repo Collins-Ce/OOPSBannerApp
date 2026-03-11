@@ -13,14 +13,14 @@
 
 public class OOPSBannerApp {
     public static void main(String[] args) {
-        // Use String.join to join the segments of each line with spaces
-        System.out.println(String.join(" ", "  ***  ", "  ***  ", "*****  ", " ***** "));
-        System.out.println(String.join(" ", "**   **", "**   **", "**   **", "**     "));
-        System.out.println(String.join(" ", "**   **", "**   **", "**   **", "**     "));
-        System.out.println(String.join(" ", "**   **", "**   **", "*****  ", " ***** "));
-        System.out.println(String.join(" ", "**   **", "**   **", "**     ", "    ** "));
-        System.out.println(String.join(" ", "**   **", "**   **", "**     ", "    ** "));
-        System.out.println(String.join(" ", "  ***  ", "  ***  ", "**     ", " ***** "));
+        // Each column segment is exactly 9 characters wide
+        System.out.println(String.join(" ", "  *****  ", "  *****  ", "*********", " ********"));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", " **    **", "**       "));
+        System.out.println(String.join(" ", "**     **", "**     **", "**    ** ", "**       "));
+        System.out.println(String.join(" ", "**     **", "**     **", "*********", " ********"));
+        System.out.println(String.join(" ", "**     **", "**     **", "**       ", "       **"));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", "**       ", "       **"));
+        System.out.println(String.join(" ", "  *****  ", "  *****  ", "**       ", " ********"));
     }
 }
 
