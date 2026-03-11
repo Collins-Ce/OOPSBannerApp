@@ -17,10 +17,20 @@
 
 public class OOPSBannerApp {
     public static void main(String[] args) {
-         System.out.println("  ***    ***   ****    **** ");
-        System.out.println(" *   *  *   *  *   *  *     ");
-        System.out.println(" *   *  *   *  ****    ***  ");
-        System.out.println(" *   *  *   *  *          * ");
-        System.out.println("  ***    ***   *      ****  ");
+        // Define the segments for each letter row by row
+        String[] row0 = {" *** ", " *** ", "**** ", " ****"};
+        String[] row1 = {"*   *", "*   *", "*   *", "*    "};
+        String[] row2 = {"*   *", "*   *", "**** ", " *** "};
+        String[] row3 = {"*   *", "*   *", "*    ", "    *"};
+        String[] row4 = {" *** ", " *** ", "*    ", "**** "};
+
+        // Use String.join to build each line with a 2-space delimiter
+        String space = "  ";
+
+        System.out.println(String.join(space, row0));
+        System.out.println(String.join(space, row1));
+        System.out.println(String.join(space, row2));
+        System.out.println(String.join(space, row3));
+        System.out.println(String.join(space, row4));
     }
 }
