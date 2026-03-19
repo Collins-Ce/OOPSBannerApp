@@ -4,7 +4,7 @@
 * letter's pattern through dedicated methods. This enhances code reusability and
 * maintainability by separating pattern generation logic from the main display logic.
 *
-* @author Developer
+* @author Collins
 * @version 6.0
 */
 
