@@ -5,7 +5,7 @@
 * and iterating through them with a for-each loop, eliminating hardcoded print
 * statements and improving modularity and reusability.
 *
-* @author Developer
+* @author Collins
 * @version 4
 */
 
