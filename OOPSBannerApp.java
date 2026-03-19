@@ -6,7 +6,7 @@
 * and efficient manner. The application retrieves and displays the "00PS" banner
 * using a HashMap there by enhancing code organization and modularity.
 *
-* @author Developer
+* @author Collins
 * @version 8.0
 */
 
