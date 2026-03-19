@@ -5,7 +5,7 @@
 * character-to-pattern mappings. The application retrieves and displays the "00PS"
 * banner using these mappings. This approach enhances code organization and modularity.
 *
-* @author Developer
+* @author Collins
 * @version 7.0
 */
 
